@@ -14,27 +14,25 @@ class PopoverViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func btnLikeClicked(_ sender: UIButton) {
-        print("I like it")
+    @IBAction func btnClicked(_ sender: UIButton) {
+    
+        switch sender.tag {
+        case 101:
+            print("Like")
+        case 102:
+            print("I love you")
+        case 103:
+            print("I'm very happy")
+        case 104:
+            print("I'm wonder")
+        case 105:
+            print("So sad")
+        case 106:
+            print("I'm angry")
+        default:
+            print("OK")
+        }
+    
     }
 
-    @IBAction func btnLoveClicked(_ sender: UIButton) {
-        print("I love you")
-    }
-    
-    @IBAction func btnHappyClicked(_ sender: UIButton) {
-        print("I'm very happy")
-    }
-    
-    @IBAction func btnWonderClicked(_ sender: UIButton) {
-        print("I'm wonder")
-    }
-    
-    @IBAction func btnSadClicked(_ sender: UIButton) {
-        print("So sad")
-    }
-    
-    @IBAction func btnAngryClicked(_ sender: UIButton) {
-        print("I'm angry")
-    }
 }

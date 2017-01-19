@@ -82,12 +82,12 @@
 			children = (
 				E2131A291E1F5A8300772284 /* AppDelegate.swift */,
 				E2131A2B1E1F5A8300772284 /* ViewController.swift */,
+				E2131A541E1F833200772284 /* PopoverViewController.swift */,
 				E2131A2D1E1F5A8300772284 /* Main.storyboard */,
 				E2131A301E1F5A8300772284 /* Assets.xcassets */,
 				E2131A321E1F5A8300772284 /* LaunchScreen.storyboard */,
 				E2131A351E1F5A8300772284 /* Info.plist */,
 				E2131A3B1E1F5CC000772284 /* Source */,
-				E2131A541E1F833200772284 /* PopoverViewController.swift */,
 			);
 			path = PopOverView;
 			sourceTree = "<group>";

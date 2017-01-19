@@ -148,64 +148,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="205" height="30"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWq-qY-KYO">
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWq-qY-KYO">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Ipu-4j-0M6"/>
                                     <constraint firstAttribute="height" constant="30" id="q9P-5r-qkC"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="love.png"/>
                                 <connections>
-                                    <action selector="btnLoveClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="cop-xo-TSo"/>
+                                    <action selector="btnClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="7gJ-9j-SlB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWE-Zl-zQU">
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWE-Zl-zQU">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="FZN-Jg-Kkv"/>
                                     <constraint firstAttribute="width" constant="30" id="lUW-jX-cWa"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="haha.png"/>
                                 <connections>
-                                    <action selector="btnHappyClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="Xqd-Gp-HTl"/>
+                                    <action selector="btnClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="U7e-aP-pZK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-KE-2sn">
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-KE-2sn">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="e0p-e3-VGQ"/>
                                     <constraint firstAttribute="width" constant="30" id="qco-Xe-KKV"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="wow.png"/>
                                 <connections>
-                                    <action selector="btnWonderClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="VSO-9X-Vki"/>
+                                    <action selector="btnClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="dqE-rx-qxw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsN-Bb-dgh">
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsN-Bb-dgh">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="pVX-qJ-pGV"/>
                                     <constraint firstAttribute="width" constant="30" id="ygm-bU-kHn"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="sad.png"/>
                                 <connections>
-                                    <action selector="btnSadClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="BTx-9F-sv8"/>
+                                    <action selector="btnClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="c15-pK-usR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S57-Oc-Wp6">
+                            <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S57-Oc-Wp6">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6Jz-ri-esT"/>
                                     <constraint firstAttribute="width" constant="30" id="bAl-yP-yqe"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="angry.png"/>
                                 <connections>
-                                    <action selector="btnAngryClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="Veu-HP-HND"/>
+                                    <action selector="btnClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="2Fu-Zb-fhb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-Iv-wgA">
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-Iv-wgA">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Gtj-Vx-zXR"/>
                                     <constraint firstAttribute="width" constant="30" id="jEc-Ro-kHA"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="like.png"/>
                                 <connections>
-                                    <action selector="btnLikeClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="yN4-W8-6PT"/>
+                                    <action selector="btnClicked:" destination="T7N-L0-DPo" eventType="touchUpInside" id="lmA-Ln-qom"/>
                                 </connections>
                             </button>
                         </subviews>
